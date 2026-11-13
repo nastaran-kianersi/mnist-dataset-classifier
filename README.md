@@ -46,3 +46,9 @@ python CNN_SGD.py
 The first run downloads and caches MNIST in the system's temporary directory, so an internet connection is required. Each script trains its model(s), saves the best checkpoint and reports test accuracy. Deactivate the environment when finished with `deactivate`.
 
 These are legacy package versions provided to match the original code, not as a recommendation for new projects.
+
+## Dataset & Acknowledgments
+This project uses the **MNIST handwritten digit database** created by Yann LeCun, Corinna Cortes, and Christopher J.C. Burges. The dataset consists of 60,000 training images and 10,000 testing images of handwritten digits.
+
+### Citation
+> LeCun, Y., Cortes, C., & Burges, C. J. (2010). *MNIST handwritten digit database*. ATT Labs. Available via [Hugging Face](https://huggingface.co/datasets/ylecun/mnist).
